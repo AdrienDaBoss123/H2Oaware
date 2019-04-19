@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <style>
+      html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 940px; 
+  padding: 0 10px;
+}
+
+.header {
+  background: url(https://tourismhamilton.com/wp-content/uploads/2018/07/spencer-gorge-webster-falls-medium-1-1024x461.jpg) no-repeat center center; 
+  background-size: cover;
+  height: 800px;
+  text-align: center; 
+}
+
+.header .container {
+  position: relative;
+  top: 200px;
+}
+
+.header h1 {
+  color: #fff;
+  line-height: 100px; 
+  font-size: 70px;
+  margin-top: 0;
+  margin-bottom: 80px;
+  text-transform: uppercase; 
+}
+
+@media (min-width:850px) {
+  .header h1 {
+    font-size: 120px;
+  }
+}
+
+.header p {
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 8px;
+  margin-bottom: 40px;
+  margin-top: 0;
+  text-transform: uppercase; 
+}
+.btn {
+  color: #fff;
+  background: #000;
+  padding: 10px 40px;
+  text-decoration: none; 
+  transition: background .5s; 
+}
+.nav { 
+  background: #000;
+  height: 80px; 
+  width: 100%;
+}
+table#table01, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 15px;
+}
+.nav ul {
+  height: 80px;
+  list-style: none;
+  margin: 0 auto; 
+  padding: 0;
+}
+.nav ul li {
+  color: #fff;
+  display: inline-block; 
+  height: 80px;
+  line-height: 80px; 
+  list-style: none;
+  padding: 0 10px;
+  transition: background .5s; 
+}
+
+.btn:hover {
+  background: #117bff;
+  cursor: pointer; 
+  transition: background .5s;  
+}
+
+.main .container {
+  margin: 80px auto;
+}
+
+.main img {
+  float: left;
+  margin: 50px 80px 50px 0;
+}
+
+.jumbotron {
+  background: url(https://s-ec.bstatic.com/images/hotel/max1280x900/118/118815913.jpg) no-repeat center center;
+  background-size: cover;
+  height: 600px; 
+}
+
+.jumbotron .container {
+  position: relative;
+  top: 220px;
+}
+
+.jumbotron h2 {
+  color: #000;
+  text-align: right; 
+}
+
+.jumbotron p {
+  color: #000; 
+  text-align: right; 
+}
+
+.jumbotron .btn {
+  margin: 10px 0 0;
+  float: right; 
+}
+
+.footer { 
+  background: #000;
+  height: 80px; 
+  padding-bottom: 50px;
+}
+
+.footer p { 
+  color: #fff;
+  font-size: 14px;  
+  height: 80px; 
+  line-height: 80px;
+  margin: 0;  
+}
+
+@media (max-width: 500px) {
+  .header h1 {
+    font-size: 50px;
+    line-height: 64px;
+  }
+
+  .main, .jumbotron {
+    padding: 0 30px;
+  }
+
+  .main img {
+    width: 100%;
+  }
+}
+  </style>
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,100' rel='stylesheet' type='text/css'>
+<link href="style.css" type="text/css" rel="stylesheet">
+  <body>
+    <div class="header">
+      <div class="container">
+        <h1>H2OIA</h1>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h3><p>Keeping our H2O and O2 clean!</p></h3>
+        <a class="btn" href="#Resources">Learn More</a>
+      </div>
+    </div>
+
+    <div class="nav">
+      <div class="container">
+        <ul>
+          <center><li><a class= "btn" href="#About">About Us</a></li>
+          <li><a class= "btn" href = "https://waterdata.usgs.gov/nwis/uv?site_no=05420500" target = _self>Live Stats</a></li>
+          <li><a class= "btn" href="#Resources">Resources</a></li>
+          <li><a class= "btn" href="#Contact">Contact</a></li>
+          <li><a class= "btn" href="#Mission">Our Mission</a></li>
+          </center>
+        </ul>
+      </div>
+    </div>
+    <div class="main">
+      <div class="container">
+        <img src="http://www.coldwatercollection.com/images/categories/C674.jpg" height="225" width="300">
+        <strong><h3>REMEMBER TO SIGN OUR PETITION AT http://chng.it/Z8k76g5d7K</h3></strong>
+        <h2>Nitrates & Nitrites</h2>
+        <p>Nitrate is formed when nitrite (NO2-) comes into contact with water. 
+        The nitrogen (N2) reacts with the water and forms nitrate (NO3-) because of the close relationship between the nitrate and the nitrite. 
+        When the N2 reacts with the H2O, it causes the oxygen molecules to break apart from the water molecule. 
+        The oxygen reacts with the nitrogen and forms nitric oxide (NO), then the nitric oxide is (NO) oxidized to form nitrogen dioxide (NO2). 
+        From there, the nitrogen dioxide reacts to the water and turns the nitrogen dioxide to nitric acid (HNO3), which can result in chemical burns.</p>
+        <p></p>
+        <br>
+        <br>
+        <br>
+        <h3><a name="Resources">Resources</a></h3>
+        If you would like to get live or historical stats you can go to USGS.gov
+        <h3><a name="About">About Us</a></h3>
+        We are a group of students currently attending Stilwell Junior High in West Des Moines, IA.
+        <br>When I went to see the mississippi river in davenport, IA, I was disappionted to see the level of trash. You could pick up beer bottles
+        and easily make a couple hundred dollars in cash refunds. It was sad to say the least. It was nearly a year and a half later I realized that
+        <h3><a name="Contact">Contact Us</a></h3>
+        If you wish to contact us, you can reach us at <strong>ah40573@wdmcs.org</strong>!
+        <h3><a name="Mission">Our Mission</a></h3>
+        <p>We want to inform people about the effects of pollution and how it impacts our everyday lives.</p>
+      </div>
+    </div>
+    <div class="jumbotron">
+      <div class="container">
+        <h2>Live Stats</h2>
+<strong><p>View live stats of pollution</p></strong>
+        <a class="btn" href="https://waterdata.usgs.gov/nwis/uv?site_no=05420500" target = _self>View</a>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="container">
+        <p>&copy; 2019 Stilwell Developers</p>
+      </div>
+    </div>
+  </body>
+</html>
